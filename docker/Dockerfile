@@ -22,7 +22,7 @@
 #  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 #  THE SOFTWARE.
 
-FROM docker:17.11-rc-dind
+FROM docker:18-dind
 LABEL MAINTAINER="Michał Kruczek <mkr@ovos.at>"
 
 ARG user=jenkins
